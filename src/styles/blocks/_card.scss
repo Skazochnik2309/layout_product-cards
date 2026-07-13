@@ -88,7 +88,7 @@
     font-weight: 700;
   }
 
-  &__button:hover {
+  &:hover {
     background-color: $color-white;
     color: $color-blue-accent;
     border: 1px solid $color-blue-accent;
