@@ -5,6 +5,7 @@
   background-color: #fff;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
+
   &__wrap-for-img {
     width: 100%;
     margin-bottom: 40px;
@@ -70,13 +71,6 @@
     font-size: 16px;
     line-height: 18px;
     margin: 0;
-  }
-
-  &__wrap-for-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
   }
 
   &__button {
