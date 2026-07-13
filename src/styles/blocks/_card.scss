@@ -86,11 +86,11 @@
     justify-content: center;
     font-size: 14px;
     font-weight: 700;
-  }
 
-  &:hover {
+    &:hover {
     background-color: $color-white;
     color: $color-blue-accent;
     border: 1px solid $color-blue-accent;
+  }
   }
 }
