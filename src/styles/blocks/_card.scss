@@ -1,94 +1,95 @@
 .card {
+  max-width: 200px;
+  padding: 32px 16px 16px;
   box-sizing: border-box;
-  width: 200px;
-  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
   border-radius: 5px;
-  background-color: $main-color;
-  &__img {
-    display: block;
+  &__label {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  &__image {
     width: 160px;
     height: 134px;
-    object-fit: contain;
-    margin: 32px auto 40px;
+    display: block;
+    margin: auto;
   }
+
   &__title {
-    color: #060b35;
-    margin: 0 16px 4px;
-    width: 166px;
-    height: 36px;
-    font-family: Roboto, sans-serif;
+    font-size: 12px;
     font-weight: 500;
-    font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0%;
-  }
-  &__code {
-    width: 98px;
-    height: 14px;
-    margin: 0 16px 16px;
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 16px;
-    letter-spacing: 0%;
-    color: #616070;
-  }
-  &__rating-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    margin-bottom: 16px;
-  }
-  &__price-row {
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0%;
-    vertical-align: bottom;
-    margin-left: 16px;
-  }
-  &__price-value {
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
     color: #060b35;
-    margin-right: 16px;
+    margin: 0 0 4px;
   }
-  &__rating-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 16px 24px;
-  }
-  &__reviews {
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
+
+  &__code {
+    color: #616070;
     font-size: 10px;
     line-height: 14px;
+    margin: 0 0 16px;
   }
-  &__button {
+
+  &__rating {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 168px;
-    font-family: Roboto, sans-serif;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  &__reviews {
+    color: #060b35;
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0;
+    text-align: right;
+  }
+
+  &__stars {
+    display: flex;
+  }
+
+  &__price-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  &__price-label {
+    color: #616070;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  &__price-value {
+    color: #060b35;
     font-weight: 700;
-    font-size: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: $main-color;
-    background-color: $button-color;
-    margin: 0 16px 16px;
-    transition: all 0.3s ease;
-    border: 1px solid $button-color;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+  }
+
+  &__buy {
+    box-sizing: border-box;
+    width: 166px;
+    height: 40px;
     border-radius: 5px;
-    &:hover {
-      background-color: $main-color;
-      color: $button-color;
-    }
+    background-color: #00acdc;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  &__buy:hover {
+    background-color: #fff;
+    color: #00acdc;
+    border: 1px solid #00acdc;
   }
 }
