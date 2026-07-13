@@ -72,6 +72,14 @@
     margin: 0;
   }
 
+  &__wrap-for-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
   &__button {
     box-sizing: border-box;
     width: 166px;
